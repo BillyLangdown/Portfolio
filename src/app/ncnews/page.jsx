@@ -1,12 +1,12 @@
 import Image from "next/image";
-import ncnewsphoto from "/public/NCNewsFrontend.png";
-import JavaScript from "/public/JavascriptIcon.png";
-import ReactIcon from "/public/ReactIcon.png";
-import Bootstrap from "/public/BootstrapIcon.png";
+import ncnewsphoto from "/NCNewsFrontend.png";
+import JavaScript from "/JavascriptIcon.png";
+import ReactIcon from "/ReactIcon.png";
+import Bootstrap from "/BootstrapIcon.png";
 import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { IoIosArrowBack } from 'react-icons/io';
-import logo from "/public/logo-transparent-png.png"
+import logo from "/logo-transparent-png.png"
 
 export default function ncnews() {
   return (
