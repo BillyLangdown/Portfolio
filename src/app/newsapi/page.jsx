@@ -9,7 +9,7 @@ export default function newsapi() {
     <main className="bg-gradient-to-br from-slate-200 to-blue-900 p-8">
       <section>
         <nav className="py-8 md:py-16 lg:py-24 xl:py-30 mb-6 flex justify-between md:justify-around">
-          <img
+          <Image
             className="w-auto h-8 md:h-10 lg:h-20 pt-1"
             src="/logo-transparent-png.png"
             alt="A type-based logo reading Billy Langdown"
@@ -30,7 +30,7 @@ export default function newsapi() {
 
         <div className="bg-gray-200 rounded-lg py-5 mt-5">
           <div className="flex justify-center my-5 px-5 md:px-24 lg:px-64">
-            <Image src="/postgres-logo.png" />
+            <Image src="/postgres-logo.png" alt="The Postgres icon" />
           </div>
 
           <div className=" flex justify-center pb-6">
@@ -72,23 +72,23 @@ export default function newsapi() {
             <ul className=" flex justify-center gap-5 py-3 px-8 items-center">
               <li className="image-item">
                 {" "}
-                <Image src="/JavascriptIcon.png" className=" w-10 h-auto" />
+                <Image src="/JavascriptIcon.png"  alt="The JavaScript Icon" className=" w-10 h-auto" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src="/JestIcon.png" className="w-10 h-auto" />
+                <Image src="/JestIcon.png" alt="The Jest Icon" className="w-10 h-auto" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src="/nodeIcon.png" className="w-10 h-auto rounded-full" />
+                <Image src="/nodeIcon.png" alt="The Node Icon" className="w-10 h-auto rounded-full" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src="/Express.png" className="w-20 h-auto" />
+                <Image src="/Express.png" alt="The Express Icon" className="w-20 h-auto" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src="/psql.png" className="w-10 h-auto" />
+                <Image src="/psql.png" alt="The psql icon" className="w-10 h-auto" />
               </li>
             </ul>
           </div>

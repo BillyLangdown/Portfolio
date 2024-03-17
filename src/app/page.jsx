@@ -40,8 +40,8 @@ export default function Home() {
           </h3>
           <p className="text-md lg:text-lg xl:text-2xl py-5 px-5 md:px-20 lg:px-40  leading-7  text-gray-200">
             Passionate about technology and with a background in branding and
-            media production, I'm seeking a role that fuses creativity with my
-            love for programming – let's chat if you're looking for a valuable
+            media production, I&apos;m seeking a role that fuses creativity with my
+            love for programming – let&apos;s chat if you&apos;re looking for a valuable
             addition to your team.
           </p>
         </div>

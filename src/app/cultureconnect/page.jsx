@@ -74,19 +74,19 @@ export default function cultureconnect() {
             <ul className=" flex justify-center gap-5 py-3 px-12 items-center">
               <li className="image-item">
                 {" "}
-                <Image src="/TypeScriptIcon.png" className=" w-10 h-auto" />
+                <Image src="/TypeScriptIcon.png" className=" w-10 h-auto" alt="The icon for TypeScript Language" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src="/ReactNativeicon.png" className="w-10 h-auto" />
+                <Image src="/ReactNativeicon.png" className="w-10 h-auto" alt="The React Native Icon"/>
               </li>
               <li className="image-item">
                 {" "}
-                <Image src="/ExpoIcon.png" className="w-10 h-auto" />
+                <Image src="/ExpoIcon.png" className="w-10 h-auto" alt="The Expo Icon used with react" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src="/SupabaseIcon.png" className="w-20 h-auto" />
+                <Image src="/SupabaseIcon.png" className="w-20 h-auto" alt="The Supabase Icon" />
               </li>
             </ul>
           </div>
