@@ -2,33 +2,21 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import NavBar from "./Navbar";
 
 
 export default function Home() {
   return (
     <main className="bg-gradient-to-br from-slate-200 to-blue-900 p-8">
       <section>
-        <nav className="py-8 md:py-16 lg:py-20 xl:py-26  flex justify-between align-middle md:justify-around">
-          <Image
-            className="w-auto h-8 md:h-10 lg:h-20 "
-            src={"/logo-transparent-png.png"}
-            alt="A type-based logo reading Billy Langdown"
-          />
-          <div className="flex items-center text-gray-800 text-lg lg:text-4xl xl:text-5xl" >
-            <a href="https://github.com/BillyLangdown" className="mr-4">
-              <AiFillGithub />
-            </a>
-            <a href="https://www.linkedin.com/in/billy-l-263072142/">
-              <AiFillLinkedin />
-            </a>
-          </div>
-        </nav>
+        <NavBar/>
         <div className="relative w-full flex justify-center">
           <Image
             className="shadow-2xl rounded-full w-3/5 md:w-2/5  h-auto mb-5"
             src="/Homepng.png"
             alt="A full body photograph of a man  in a black t shirt and shorts stood against a painted wall."
+            width={1000}
+            height={1000}
           />
         </div>
         <div className="text-center py-5">
@@ -60,6 +48,8 @@ export default function Home() {
                 src="/CultureConnect.png"
                 className="rounded-lg mb-3 image"
                 alt="A Digital image of the CultureConnect mobile application on a mocked up iphone."
+                width={5000}
+                height={5000}
               />
               <p className="text-slate-300 md:text-lg lg:text-2xl">
                 CultureConnect is a community-focused hybrid application for iOS
@@ -76,6 +66,8 @@ export default function Home() {
                 src="/postgres-logo.png"
                 className="rounded-lg  mb-3"
                 alt="The Logo for Postgres SQL, A digitally drawn blue elephant."
+                width={5000}
+                height={5000}
               />
               <p className="text-slate-300 md:text-lg lg:text-2xl">
                 {" "}
@@ -92,6 +84,8 @@ export default function Home() {
                 src= "/NCNewsFrontend.png"
                 className="rounded-lg  mb-3"
                 alt="A Digital image of the CultureConnect mobile application on a mocked up iphone."
+                width={5000}
+                height={5000}
               />
               <p className="text-slate-300 md:text-lg lg:text-2xl">
                 {" "}

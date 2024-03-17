@@ -1,28 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { IoIosArrowBack } from 'react-icons/io';
+import NavBar from "../Navbar";
 
 
 export default function ncnews() {
   return (
     <main className="bg-gradient-to-br from-slate-200 to-blue-900 p-8">
       <section>
-        <nav className="py-8 md:py-16 lg:py-24 xl:py-30 mb-6 flex justify-between md:justify-around">
-          <Image
-            className="w-auto h-8 md:h-10 lg:h-20 pt-1"
-            src="/logo-transparent-png.png"
-            alt="A type-based logo reading Billy Langdown"
-          />
-         <div className="flex items-center text-gray-800 text-lg lg:text-4xl xl:text-5xl" >
-            <a href="https://github.com/BillyLangdown" className="mr-4">
-              <AiFillGithub />
-            </a>
-            <a href="https://www.linkedin.com/in/billy-l-263072142/">
-              <AiFillLinkedin />
-            </a>
-          </div>
-        </nav>
+       <NavBar/>
 
         <a className="text-2xl" href="/">
           <IoIosArrowBack />
@@ -33,6 +19,8 @@ export default function ncnews() {
             <Image
               src="/NCNewsFrontend.png"
               alt="A screenshot of the homepage of NC News, a news web application."
+              width={5000}
+              height={5000}
             />
           </div>
 
@@ -73,6 +61,8 @@ export default function ncnews() {
                   src="/JavascriptIcon.png"
                   alt="The JavaScript logo"
                   className="w-10 h-auto"
+                  width={5000}
+                  height={5000}
                 />
               </li>
               <li className="image-item">
@@ -80,6 +70,8 @@ export default function ncnews() {
                   src="/ReactIcon.png"
                   alt="The React logo"
                   className="w-10 h-auto"
+                  width={5000}
+                  height={5000}
                 />
               </li>
               <li className="image-item">
@@ -87,6 +79,8 @@ export default function ncnews() {
                   src="/BootstrapIcon.png"
                   alt="The Bootstrap logo"
                   className="w-10 h-auto rounded-full"
+                  width={5000}
+                  height={5000}
                 />
               </li>
             </ul>

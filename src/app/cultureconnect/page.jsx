@@ -1,34 +1,17 @@
-
 import Image from "next/image";
 import Link from "next/link";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { IoIosArrowBack } from 'react-icons/io';
-
-
+import { IoIosArrowBack } from "react-icons/io";
+import NavBar from "../Navbar";
 
 export default function cultureconnect() {
   return (
     <main className="bg-gradient-to-br from-slate-200 to-blue-900 p-8">
       <section>
-        <nav className="py-8 md:py-16 lg:py-24 xl:py-30 mb-6 flex justify-between md:justify-around">
-          <Image
-            className="w-auto h-8 md:h-10 lg:h-20 pt-1"
-            src="/logo-transparent-png.png"
-            alt="A type-based logo reading Billy Langdown"
-          />
-          <div className="flex items-center text-gray-800 text-lg lg:text-4xl xl:text-5xl" >
-            <a href="https://github.com/BillyLangdown" className="mr-4">
-              <AiFillGithub />
-            </a>
-            <a href="https://www.linkedin.com/in/billy-l-263072142/">
-              <AiFillLinkedin />
-            </a>
-          </div>
-        </nav>
+       <NavBar/>
 
-        <a className="text-2xl" href="/"><IoIosArrowBack/></a>
-
-        
+        <a className="text-2xl" href="/">
+          <IoIosArrowBack />
+        </a>
 
         <div className="bg-gray-200 rounded-lg py-10 my-10  ">
           <div className="flex justify-center ">
@@ -74,26 +57,52 @@ export default function cultureconnect() {
             <ul className=" flex justify-center gap-5 py-3 px-12 items-center">
               <li className="image-item">
                 {" "}
-                <Image src="/TypeScriptIcon.png" className=" w-10 h-auto" alt="The icon for TypeScript Language" />
+                <Image
+                  src="/TypeScriptIcon.png"
+                  className=" w-10 h-auto"
+                  alt="The icon for TypeScript Language"
+                  width={5000}
+                  height={5000}
+                />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src="/ReactNativeicon.png" className="w-10 h-auto" alt="The React Native Icon"/>
+                <Image
+                  src="/ReactNativeicon.png"
+                  className="w-10 h-auto"
+                  alt="The React Native Icon"
+                  width={5000}
+                  height={5000}
+                />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src="/ExpoIcon.png" className="w-10 h-auto" alt="The Expo Icon used with react" />
+                <Image
+                  src="/ExpoIcon.png"
+                  className="w-10 h-auto"
+                  alt="The Expo Icon used with react"
+                  width={5000}
+                  height={5000}
+                />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src="/SupabaseIcon.png" className="w-20 h-auto" alt="The Supabase Icon" />
+                <Image
+                  src="/SupabaseIcon.png"
+                  className="w-20 h-auto"
+                  alt="The Supabase Icon"
+                  width={5000}
+                  height={5000}
+                />
               </li>
             </ul>
           </div>
         </div>
       </section>
       <div>
-        <p className="flex justify-center text-xs text-slate-300">- billy.langdown01@gmail.com -</p>
+        <p className="flex justify-center text-xs text-slate-300">
+          - billy.langdown01@gmail.com -
+        </p>
       </div>
     </main>
   );
