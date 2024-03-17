@@ -1,13 +1,13 @@
-import { BsFillMoonStarsFill } from "react-icons/bs";
+
 import Image from "next/image";
-import CultureConnect from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/CultureConnect.png";
-import TypeScript from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/TypeScriptIcon.png";
-import Supabase from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/SupabaseIcon.png";
-import ReactNative from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/ReactNativeicon.png";
-import Expo from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/ExpoIcon.png";
+import TypeScript from "/public/TypeScriptIcon.png";
+import Supabase from "/public/SupabaseIcon.png";
+import ReactNative from "/public/ReactNativeicon.png";
+import Expo from "/public/ExpoIcon.png";
 import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { IoIosArrowBack } from 'react-icons/io';
+import logo from "/public/logo-transparent-png.png"
 
 
 export default function cultureconnect() {
@@ -17,7 +17,7 @@ export default function cultureconnect() {
         <nav className="py-8 md:py-16 lg:py-24 xl:py-30 mb-6 flex justify-between md:justify-around">
           <img
             className="w-auto h-8 md:h-10 lg:h-20 pt-1"
-            src="/logo-transparent-png.png"
+            src={logo}
             alt="A type-based logo reading Billy Langdown"
           />
           <div className="flex items-center text-gray-800 text-lg lg:text-4xl xl:text-5xl" >

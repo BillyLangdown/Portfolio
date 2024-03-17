@@ -1,14 +1,15 @@
-import { BsFillMoonStarsFill } from "react-icons/bs";
+
 import Image from "next/image";
-import Api from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/postgres-logo.png";
-import JavaScript from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/JavascriptIcon.png";
-import Jest from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/JestIcon.png";
-import Express from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/Express.png";
-import Psql from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/psql.png";
-import Node from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/nodeIcon.png";
+import Api from "/public/postgres-logo.png";
+import JavaScript from "/public/JavascriptIcon.png";
+import Jest from "/public/JestIcon.png";
+import Express from "/public/Express.png";
+import Psql from "/public/psql.png";
+import Node from "/public/nodeIcon.png";
 import { IoIosArrowBack } from "react-icons/io";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
+import logo from "/public/logo-transparent-png.png"
 
 export default function newsapi() {
   return (
@@ -17,7 +18,7 @@ export default function newsapi() {
         <nav className="py-8 md:py-16 lg:py-24 xl:py-30 mb-6 flex justify-between md:justify-around">
           <img
             className="w-auto h-8 md:h-10 lg:h-20 pt-1"
-            src="/logo-transparent-png.png"
+            src={logo}
             alt="A type-based logo reading Billy Langdown"
           />
           <div className="flex items-center text-gray-800 text-lg lg:text-4xl xl:text-5xl" >

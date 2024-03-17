@@ -1,11 +1,12 @@
 import Image from "next/image";
-import ncnewsphoto from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/NCNewsFrontend.png";
-import JavaScript from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/JavascriptIcon.png";
-import ReactIcon from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/ReactIcon.png";
-import Bootstrap from "/Users/billylangdown/Desktop/PortfolioWebsite/portfolio/public/BootstrapIcon.png";
+import ncnewsphoto from "/public/NCNewsFrontend.png";
+import JavaScript from "/public/JavascriptIcon.png";
+import ReactIcon from "/public/ReactIcon.png";
+import Bootstrap from "/public/BootstrapIcon.png";
 import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { IoIosArrowBack } from 'react-icons/io';
+import logo from "/public/logo-transparent-png.png"
 
 export default function ncnews() {
   return (
@@ -14,7 +15,7 @@ export default function ncnews() {
         <nav className="py-8 md:py-16 lg:py-24 xl:py-30 mb-6 flex justify-between md:justify-around">
           <img
             className="w-auto h-8 md:h-10 lg:h-20 pt-1"
-            src="/logo-transparent-png.png"
+            src={logo}
             alt="A type-based logo reading Billy Langdown"
           />
          <div className="flex items-center text-gray-800 text-lg lg:text-4xl xl:text-5xl" >
