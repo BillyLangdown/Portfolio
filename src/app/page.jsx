@@ -1,13 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import billy from "/Homepng.png";
-import CultureConnect from "/CultureConnect.png";
-import PsqlLogo from "/postgres-logo.png";
-import FrontEndNcNews from "/NCNewsFrontend.png";
+import billy from "Homepng.png";
+import CultureConnect from "CultureConnect.png";
+import PsqlLogo from "postgres-logo.png";
+import FrontEndNcNews from "NCNewsFrontend.png";
 import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import logo from "/logo-transparent-png.png"
+import logo from "logo-transparent-png.png"
 
 export default function Home() {
   return (

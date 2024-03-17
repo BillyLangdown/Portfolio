@@ -1,13 +1,13 @@
 
 import Image from "next/image";
-import TypeScript from "/TypeScriptIcon.png";
-import Supabase from "/SupabaseIcon.png";
-import ReactNative from "/ReactNativeicon.png";
-import Expo from "/ExpoIcon.png";
+import TypeScript from "TypeScriptIcon.png";
+import Supabase from "SupabaseIcon.png";
+import ReactNative from "ReactNativeicon.png";
+import Expo from "ExpoIcon.png";
 import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { IoIosArrowBack } from 'react-icons/io';
-import logo from "/logo-transparent-png.png"
+import logo from "logo-transparent-png.png"
 
 
 export default function cultureconnect() {

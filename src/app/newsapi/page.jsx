@@ -1,15 +1,15 @@
 
 import Image from "next/image";
-import Api from "/postgres-logo.png";
-import JavaScript from "/JavascriptIcon.png";
-import Jest from "/JestIcon.png";
-import Express from "/Express.png";
-import Psql from "/psql.png";
-import Node from "/nodeIcon.png";
+import Api from "postgres-logo.png";
+import JavaScript from "JavascriptIcon.png";
+import Jest from "JestIcon.png";
+import Express from "Express.png";
+import Psql from "psql.png";
+import Node from "nodeIcon.png";
 import { IoIosArrowBack } from "react-icons/io";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
-import logo from "/logo-transparent-png.png"
+import logo from "logo-transparent-png.png"
 
 export default function newsapi() {
   return (
