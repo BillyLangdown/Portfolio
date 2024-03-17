@@ -1,15 +1,8 @@
 
 import Image from "next/image";
-import Api from "postgres-logo.png";
-import JavaScript from "JavascriptIcon.png";
-import Jest from "JestIcon.png";
-import Express from "Express.png";
-import Psql from "psql.png";
-import Node from "nodeIcon.png";
 import { IoIosArrowBack } from "react-icons/io";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Link from "next/link";
-import logo from "logo-transparent-png.png"
 
 export default function newsapi() {
   return (
@@ -18,7 +11,7 @@ export default function newsapi() {
         <nav className="py-8 md:py-16 lg:py-24 xl:py-30 mb-6 flex justify-between md:justify-around">
           <img
             className="w-auto h-8 md:h-10 lg:h-20 pt-1"
-            src={logo}
+            src="/logo-transparent-png.png"
             alt="A type-based logo reading Billy Langdown"
           />
           <div className="flex items-center text-gray-800 text-lg lg:text-4xl xl:text-5xl" >
@@ -37,7 +30,7 @@ export default function newsapi() {
 
         <div className="bg-gray-200 rounded-lg py-5 mt-5">
           <div className="flex justify-center my-5 px-5 md:px-24 lg:px-64">
-            <Image src={Api} />
+            <Image src="/postgres-logo.png" />
           </div>
 
           <div className=" flex justify-center pb-6">
@@ -79,23 +72,23 @@ export default function newsapi() {
             <ul className=" flex justify-center gap-5 py-3 px-8 items-center">
               <li className="image-item">
                 {" "}
-                <Image src={JavaScript} className=" w-10 h-auto" />
+                <Image src="/JavascriptIcon.png" className=" w-10 h-auto" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src={Jest} className="w-10 h-auto" />
+                <Image src="/JestIcon.png" className="w-10 h-auto" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src={Node} className="w-10 h-auto rounded-full" />
+                <Image src="/nodeIcon.png" className="w-10 h-auto rounded-full" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src={Express} className="w-20 h-auto" />
+                <Image src="/Express.png" className="w-20 h-auto" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src={Psql} className="w-10 h-auto" />
+                <Image src="/psql.png" className="w-10 h-auto" />
               </li>
             </ul>
           </div>

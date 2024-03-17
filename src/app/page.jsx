@@ -1,22 +1,18 @@
 "use client";
 
 import Image from "next/image";
-import billy from "Homepng.png";
-import CultureConnect from "CultureConnect.png";
-import PsqlLogo from "postgres-logo.png";
-import FrontEndNcNews from "NCNewsFrontend.png";
 import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import logo from "logo-transparent-png.png"
+
 
 export default function Home() {
   return (
     <main className="bg-gradient-to-br from-slate-200 to-blue-900 p-8">
       <section>
         <nav className="py-8 md:py-16 lg:py-20 xl:py-26  flex justify-between align-middle md:justify-around">
-          <img
+          <Image
             className="w-auto h-8 md:h-10 lg:h-20 "
-            src={logo}
+            src={"/logo-transparent-png.png"}
             alt="A type-based logo reading Billy Langdown"
           />
           <div className="flex items-center text-gray-800 text-lg lg:text-4xl xl:text-5xl" >
@@ -31,7 +27,7 @@ export default function Home() {
         <div className="relative w-full flex justify-center">
           <Image
             className="shadow-2xl rounded-full w-3/5 md:w-2/5  h-auto mb-5"
-            src={billy}
+            src="/Homepng.png"
             alt="A full body photograph of a man  in a black t shirt and shorts stood against a painted wall."
           />
         </div>
@@ -61,7 +57,7 @@ export default function Home() {
                 CultureConnect
               </h3>
               <Image
-                src={CultureConnect}
+                src="/CultureConnect.png"
                 className="rounded-lg mb-3 image"
                 alt="A Digital image of the CultureConnect mobile application on a mocked up iphone."
               />
@@ -77,7 +73,7 @@ export default function Home() {
                 NC News Api
               </h3>
               <Image
-                src={PsqlLogo}
+                src="/postgres-logo.png"
                 className="rounded-lg  mb-3"
                 alt="The Logo for Postgres SQL, A digitally drawn blue elephant."
               />
@@ -93,7 +89,7 @@ export default function Home() {
                 NC News Frontend
               </h3>
               <Image
-                src={FrontEndNcNews}
+                src= "/NCNewsFrontend.png"
                 className="rounded-lg  mb-3"
                 alt="A Digital image of the CultureConnect mobile application on a mocked up iphone."
               />

@@ -1,13 +1,9 @@
 
 import Image from "next/image";
-import TypeScript from "TypeScriptIcon.png";
-import Supabase from "SupabaseIcon.png";
-import ReactNative from "ReactNativeicon.png";
-import Expo from "ExpoIcon.png";
 import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { IoIosArrowBack } from 'react-icons/io';
-import logo from "logo-transparent-png.png"
+
 
 
 export default function cultureconnect() {
@@ -15,9 +11,9 @@ export default function cultureconnect() {
     <main className="bg-gradient-to-br from-slate-200 to-blue-900 p-8">
       <section>
         <nav className="py-8 md:py-16 lg:py-24 xl:py-30 mb-6 flex justify-between md:justify-around">
-          <img
+          <Image
             className="w-auto h-8 md:h-10 lg:h-20 pt-1"
-            src={logo}
+            src="/logo-transparent-png.png"
             alt="A type-based logo reading Billy Langdown"
           />
           <div className="flex items-center text-gray-800 text-lg lg:text-4xl xl:text-5xl" >
@@ -78,19 +74,19 @@ export default function cultureconnect() {
             <ul className=" flex justify-center gap-5 py-3 px-12 items-center">
               <li className="image-item">
                 {" "}
-                <Image src={TypeScript} className=" w-10 h-auto" />
+                <Image src="/TypeScriptIcon.png" className=" w-10 h-auto" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src={ReactNative} className="w-10 h-auto" />
+                <Image src="/ReactNativeicon.png" className="w-10 h-auto" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src={Expo} className="w-10 h-auto" />
+                <Image src="/ExpoIcon.png" className="w-10 h-auto" />
               </li>
               <li className="image-item">
                 {" "}
-                <Image src={Supabase} className="w-20 h-auto" />
+                <Image src="/SupabaseIcon.png" className="w-20 h-auto" />
               </li>
             </ul>
           </div>

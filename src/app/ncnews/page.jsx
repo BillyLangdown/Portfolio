@@ -1,21 +1,17 @@
 import Image from "next/image";
-import ncnewsphoto from "NCNewsFrontend.png";
-import JavaScript from "JavascriptIcon.png";
-import ReactIcon from "ReactIcon.png";
-import Bootstrap from "BootstrapIcon.png";
 import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { IoIosArrowBack } from 'react-icons/io';
-import logo from "logo-transparent-png.png"
+
 
 export default function ncnews() {
   return (
     <main className="bg-gradient-to-br from-slate-200 to-blue-900 p-8">
       <section>
         <nav className="py-8 md:py-16 lg:py-24 xl:py-30 mb-6 flex justify-between md:justify-around">
-          <img
+          <Image
             className="w-auto h-8 md:h-10 lg:h-20 pt-1"
-            src={logo}
+            src="/logo-transparent-png.png"
             alt="A type-based logo reading Billy Langdown"
           />
          <div className="flex items-center text-gray-800 text-lg lg:text-4xl xl:text-5xl" >
@@ -35,7 +31,7 @@ export default function ncnews() {
         <div className="bg-gray-200 rounded-lg py-5 mt-5">
           <div className="flex justify-center rounded-lg  p-5 md:px-24 lg:px-64 xl:px-80">
             <Image
-              src={ncnewsphoto}
+              src="/NCNewsFrontend.png"
               alt="A screenshot of the homepage of NC News, a news web application."
             />
           </div>
@@ -74,21 +70,21 @@ export default function ncnews() {
             <ul className="flex justify-center gap-5 py-10 px-8 items-center">
               <li className="image-item">
                 <Image
-                  src={JavaScript}
+                  src="/JavascriptIcon.png"
                   alt="The JavaScript logo"
                   className="w-10 h-auto"
                 />
               </li>
               <li className="image-item">
                 <Image
-                  src={ReactIcon}
+                  src="/ReactIcon.png"
                   alt="The React logo"
                   className="w-10 h-auto"
                 />
               </li>
               <li className="image-item">
                 <Image
-                  src={Bootstrap}
+                  src="/BootstrapIcon.png"
                   alt="The Bootstrap logo"
                   className="w-10 h-auto rounded-full"
                 />
