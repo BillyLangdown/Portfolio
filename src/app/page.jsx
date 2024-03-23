@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import NavBar from "./Navbar";
-import ProjectScrollView from "./ProjectScrollview";
+import ProjectScrollView from "./ProjectScrollView";
 
 
 export default function Home() {
