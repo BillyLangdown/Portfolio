@@ -1,8 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import NavBar from "./Navbar";
+import ProjectScrollView from "./ProjectScrollview";
 
 
 export default function Home() {
@@ -38,63 +38,10 @@ export default function Home() {
             Projects:
           </h2>
         </div>
-        <div>
-          <Link href="/cultureconnect">
-            <div className=" bg-gradient-to-br  from-gray-400 to-gray-700 rounded-lg shadow-2xl p-6 md:p-12 lg:p-20  py-4 my-10 mx-5 md:mx-10 lg:mx-64 xl:mx-72 text-center">
-              <h3 className=" text-start text-xl lg:text-2xl xl:text-5xl font-openSans text-slate-200 pb-5 font-semibold">
-                CultureConnect
-              </h3>
-              <Image
-                src="/CultureConnect.png"
-                className="rounded-lg mb-3 image"
-                alt="A Digital image of the CultureConnect mobile application on a mocked up iphone."
-                width={5000}
-                height={5000}
-              />
-              <p className="text-slate-300 md:text-lg lg:text-2xl">
-                CultureConnect is a community-focused hybrid application for iOS
-                & Android.
-              </p>
-            </div>
-          </Link>
-          <Link href="/newsapi">
-            <div className=" bg-gradient-to-br  from-gray-400 to-gray-700 rounded-lg shadow-2xl p-6 md:p-12 lg:p-20  py-4 my-10 mx-5 md:mx-10 lg:mx-64 xl:mx-72 text-center">
-              <h3 className=" text-start text-xl lg:text-2xl xl:text-5xl font-openSans text-slate-200 pb-5 font-semibold">
-                NC News Api
-              </h3>
-              <Image
-                src="/postgres-logo.png"
-                className="rounded-lg  mb-3"
-                alt="The Logo for Postgres SQL, A digitally drawn blue elephant."
-                width={5000}
-                height={5000}
-              />
-              <p className="text-slate-300 md:text-lg lg:text-2xl">
-                {" "}
-                An API, controlling requests for data used on a news website.
-              </p>
-            </div>
-          </Link>
-          <Link href="/ncnews">
-            <div className=" bg-gradient-to-br  from-gray-400 to-gray-700 rounded-lg shadow-2xl p-6 md:p-12 lg:p-20  py-4 my-10 mx-5 md:mx-10 lg:mx-64 xl:mx-72 text-center">
-              <h3 className=" text-start text-xl lg:text-2xl xl:text-5xl font-openSans text-slate-200 pb-5 font-semibold">
-                NC News Frontend
-              </h3>
-              <Image
-                src= "/NCNewsFrontend.png"
-                className="rounded-lg  mb-3"
-                alt="A Digital image of the CultureConnect mobile application on a mocked up iphone."
-                width={5000}
-                height={5000}
-              />
-              <p className="text-slate-300 md:text-lg lg:text-2xl">
-                {" "}
-                The Frontend of a NC news web application. Read, write &
-                interact with articles.
-              </p>
-            </div>
-          </Link>
-        </div>
+       
+       <ProjectScrollView/>
+
+
       </section>
       <div>
         <p className="flex justify-center text-xs text-slate-300">- billy.langdown01@gmail.com -</p>
