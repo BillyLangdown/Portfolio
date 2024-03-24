@@ -46,7 +46,7 @@ export default function NewsApiPage() {
               GitHub
             </a>
             <a
-              href="https://nc-news-api-vw2o.onrender.com/api"
+              href={"https://nc-news-api-vw2o.onrender.com/api"}
               className="inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1 before:bg-gradient-to-r before:from-blue-200 before:to-blue-600 before:rounded-full before:opacity-0 before:transition-all before:duration-500 hover:before:w-full hover:before:opacity-100"
             >
               Live API
