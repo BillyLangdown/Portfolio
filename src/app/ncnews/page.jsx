@@ -43,16 +43,15 @@ export default function ncnews() {
             </p>
           </div>
           <div className="flex justify-center gap-5 py-5">
-            <Link href={"https://github.com/BillyLangdown/fe-nc-news"}>
-              <button className=" bg-gradient-to-br from-gray-300 to-blue-500  text-xs rounded-lg p-1 border-2 tracking-wider  active:border-gray-200 duration-300 active:text-white">
+            <a href={"https://github.com/BillyLangdown/fe-nc-news"} className="inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1 before:bg-gradient-to-r before:from-blue-200 before:to-blue-600 before:rounded-full before:opacity-0 before:transition-all before:duration-500 hover:before:w-full hover:before:opacity-100">
+             
                 GitHub
-              </button>
-            </Link>
-            <Link href={"https://billyl-nc-news.netlify.app"}>
-              <button className=" bg-gradient-to-br from-gray-300 to-blue-500  text-xs rounded-lg p-1 border-2 tracking-wider  active:border-gray-200 duration-300 active:text-white">
-                Live site
-              </button>
-            </Link>
+            
+            </a>
+            <a href={"https://billyl-nc-news.netlify.app"} className="inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1 before:bg-gradient-to-r before:from-blue-200 before:to-blue-600 before:rounded-full before:opacity-0 before:transition-all before:duration-500 hover:before:w-full hover:before:opacity-100">
+              Live Site
+            
+            </a>
           </div>
           <div>
             <ul className="flex justify-center gap-5 py-10 px-8 items-center">

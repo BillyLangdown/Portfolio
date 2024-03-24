@@ -3,11 +3,11 @@ import { IoIosArrowBack } from "react-icons/io";
 import Link from "next/link";
 import NavBar from "../Navbar";
 
-export default function newsapi() {
+export default function NewsApiPage() {
   return (
     <main className="bg-gradient-to-br from-slate-200 to-blue-900 p-8">
       <section>
-       <NavBar/>
+        <NavBar />
 
         <a className="text-2xl" href="/">
           <IoIosArrowBack />
@@ -23,8 +23,8 @@ export default function newsapi() {
             />
           </div>
 
-          <div className=" flex justify-center pb-6">
-            <h2 className=" text-2xl font-openSans font-bold text-gray-800">
+          <div className="flex justify-center pb-6">
+            <h2 className="text-2xl font-openSans font-bold text-gray-800">
               NC News Api
             </h2>
           </div>
@@ -39,35 +39,31 @@ export default function newsapi() {
             </p>
           </div>
           <div className="flex justify-center gap-5 py-5">
-            <Link
-              href={
-                "https://github.com/https://github.com/BillyLangdown/news-api"
-              }
+            <a
+              href={"https://github.com/BillyLangdown/news-api"}
+              className="inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1 before:bg-gradient-to-r before:from-blue-200 before:to-blue-600 before:rounded-full before:opacity-0 before:transition-all before:duration-500 hover:before:w-full hover:before:opacity-100"
             >
-              <button className=" bg-gradient-to-br from-gray-300 to-blue-500  text-xs rounded-lg p-1 border-2 tracking-wider  active:border-gray-200 duration-300 active:text-white">
-                GitHub
-              </button>
-            </Link>
-            <Link href={"https://nc-news-api-vw2o.onrender.co/api"}>
-              <button className=" bg-gradient-to-br from-gray-300 to-blue-500  text-xs rounded-lg p-1 border-2 tracking-wider  active:border-gray-200 duration-300 active:text-white">
-                Live API
-              </button>
-            </Link>
+              GitHub
+            </a>
+            <a
+              href="https://nc-news-api-vw2o.onrender.com/api"
+              className="inline-block relative cursor-pointer transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1 before:bg-gradient-to-r before:from-blue-200 before:to-blue-600 before:rounded-full before:opacity-0 before:transition-all before:duration-500 hover:before:w-full hover:before:opacity-100"
+            >
+              Live API
+            </a>
           </div>
           <div>
-            <ul className=" flex justify-center gap-5 py-3 px-8 items-center">
+            <ul className="flex justify-center gap-5 py-3 px-8 items-center">
               <li className="image-item">
-                {" "}
                 <Image
                   src="/JavascriptIcon.png"
                   alt="The JavaScript Icon"
-                  className=" w-10 h-auto"
+                  className="w-10 h-auto"
                   width={5000}
                   height={5000}
                 />
               </li>
               <li className="image-item">
-                {" "}
                 <Image
                   src="/JestIcon.png"
                   alt="The Jest Icon"
@@ -77,27 +73,24 @@ export default function newsapi() {
                 />
               </li>
               <li className="image-item">
-                {" "}
                 <Image
                   src="/nodeIcon.png"
                   alt="The Node Icon"
-                  className="w-10 h-auto rounded-full"
+                  className="w-10 h-auto"
                   width={5000}
                   height={5000}
                 />
               </li>
               <li className="image-item">
-                {" "}
                 <Image
                   src="/Express.png"
                   alt="The Express Icon"
-                  className="w-20 h-auto"
+                  className="w-10 h-auto"
                   width={5000}
                   height={5000}
                 />
               </li>
               <li className="image-item">
-                {" "}
                 <Image
                   src="/psql.png"
                   alt="The psql icon"
